@@ -1,0 +1,116 @@
+*{font-family: 'Roboto Mono', monospace;}
+.carousel-inner img{
+    width: 100%;
+    height:90vh;
+}
+.aboutimg{
+    width:100%;
+    height:250px!important;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+
+
+
+
+  .containe{
+    width:100%;
+    height:100vh;
+    font-family:inherit !important;
+    font-weight: bold;
+    background: rgb(187, 187, 245);
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.cardss{
+    width:350px;
+    height:500px;
+    box-shadow: 0 0 40px 20px rgba(0,0,0,0.26);
+    }
+.form-label{
+    
+        font-size: 30px;
+        
+        font-weight:200;
+         margin:6px 0;
+        height:32px;
+        border-radius: 20px;
+        padding: 0 10px;
+        box-sizing: border-box;
+        outline: none;
+        text-align: center;
+        color:#fff;
+}
+.form-control{
+    width:100%;
+    font-weight:200;
+    background:transparent;
+    border:1px solid rgb(5, 4, 4);
+    
+    height:32px;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color:black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+.cardss h1{
+        font-weight:200;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 30px;
+}
+/* .butn{
+width:100%;
+font-weight:100;
+background:transparent;
+border:1px solid rgb(5, 4, 4);
+margin:6px 0;
+height:32px;
+border-radius: 20px;
+padding: 0px;
+box-sizing: border-box;
+outline: none;
+text-align: center;
+color:black;
+margin-top: 80px;
+font-size: 20px;
+} */
+
+.hero-butn{ 
+    display: inline-block;  
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:10px 20px;
+    border-radius: 200px;
+    font-weight:bold;
+    background:black;
+    color: #fff;
+    cursor:pointer;
+    border: 2px solid black;
+    margin-top: 20px;
+    
+}
+.hero-butn:hover{
+    background: #fff;
+    color:orange;
+    border:none;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
